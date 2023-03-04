@@ -1,8 +1,8 @@
 import matplotlib.pyplot as plt
 import random
 
-DEF_N = 100
-DEF_M = 5000
+DEF_N = 100 # grid size
+DEF_M = 5000 # number of points
 
 def main(n, m):
 	targets = ((0, 0), (n/2, n), (n, 0))
